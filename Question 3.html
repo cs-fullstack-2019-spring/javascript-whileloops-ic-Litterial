@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<h1>
+    Question 3
+</h1>
+<body>
+<script>
+    var password= prompt("Please enter your password (case-sensitive)");
+    if (password === "901 Shelby Drive")//Checks if user entered password the first time
+    {
+        alert("That's correct!!")
+    }
+
+    else  // asks user for password until they get it correct.
+    {
+        do
+        {
+         alert("That's incorrect. Please try again");
+         password = prompt("Please enter your password (case-sensitive)");
+        }
+        while(password!== "901 Shelby Drive")
+
+        alert("That's correct!!")
+    }
+</script>
+</body>
+</html>
